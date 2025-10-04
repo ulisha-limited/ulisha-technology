@@ -518,14 +518,14 @@ const App = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-4">Company</h4>
                     <ul className="space-y-2 text-sm text-gray-400">
-                        <li><a href="#hero" className="hover:text-blue-400 transition-colors">About Us (Mock)</a></li>
-                        <li><a href="#features" className="hover:text-blue-400 transition-colors">Careers (Mock)</a></li>
+                        <li><a href="#hero" className="hover:text-blue-400 transition-colors">About Us </a></li>
+                        <li><a href="#features" className="hover:text-blue-400 transition-colors">Careers</a></li>
                         <li><a href="#contact" className="hover:text-blue-400 transition-colors">Get In Touch</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 className="text-lg font-semibold mb-4">Connect</h4>
-                    <p className="text-sm text-gray-400">contact@ulishatech.com</p>
+                    <p className="text-sm text-gray-400">contact@ulishalimited.com</p>
                 </div>
             </div>
             <div className="mt-10 pt-8 border-t border-gray-700 text-center text-sm text-gray-500">

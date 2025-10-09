@@ -16,7 +16,7 @@ const geistMono = Geist({
 
 export const metadata: Metadata = {
   title: "Ulisha Tech - High-Performance Software & SEO Solutions",
-  metadataBase: new URL("https://utech.ulishalimited.com"), 
+  metadataBase: new URL("https://ulishatechnologies.com"), 
 
   
   description:
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Ulisha Tech",
     images: [
       {
-        url: "/og-image.png", // Path to your Open Graph image (place in /public folder)
+        url: "/ulishalimited.png", // Path to your Open Graph image (place in /public folder)
         width: 1200,
         height: 630,
         alt: "Ulisha Tech - Digital Growth Engine",
@@ -79,7 +79,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Ulisha Tech',
-    url: 'https://utech.ulishalimited.com',
+    url: 'https://ulishatechnologies.com.ng',
   };
 
   return (

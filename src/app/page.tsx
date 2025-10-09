@@ -328,11 +328,15 @@ const Navbar: React.FC<NavbarProps> = ({ sections }) => {
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ease-in-out ${navClass}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <a href="#" className={`text-2xl font-extrabold transition-colors duration-300 z-50 ${linkColor}`}>
-            Ulisha<span className="text-blue-500">Tech</span>
-          </a>
-          <div className="hidden md:flex items-center space-x-8">
+<div className="flex justify-between items-center h-16">
+  <a href="#" className={`transition-colors duration-300 z-50 ${linkColor}`}>
+    <img 
+      src="/utech.png" 
+      alt="UlishaTech Logo"
+      className="h-30 w-auto " 
+    />
+  </a>
+  <div className="hidden md:flex items-center space-x-8">
             {sections.map((section) => (
               <a
                 key={section.id}
